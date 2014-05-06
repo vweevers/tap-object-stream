@@ -1,0 +1,32 @@
+{
+  "name": "tap-object-stream",
+  "version": "0.0.1",
+  "author": {
+    "name": "Vincent Weevers",
+    "url": "http://vincentweevers.nl"
+  },
+  "description": "Quickly tap into properties of streamed objects",
+  "license": "MIT",
+  "repository": "vweevers/tap-object-stream",
+  "scripts": {
+    "test": "tap test.js",
+    "toc": "node node_modules/marked-toc/bin/toc"
+  },
+  "keywords": [
+    "tap",
+    "property",
+    "stream",
+    "pluck",
+    "gulpfriendly"
+  ],
+  "devDependencies": {
+    "tap": "~0.4.9",
+    "gulp-util": "~2.2.14",
+    "marked-toc": "~0.2.5"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.5",
+    "introspect": "~0.0.3",
+    "pluck": "~0.0.4"
+  }
+}
